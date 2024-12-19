@@ -1,0 +1,168 @@
+::after, ::before { line-height: normal; }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.loader_bg {     position: fixed;     z-index: 99;     background: #aaaaab;     width: 100%;     height: 100%;
+opacity:.8;} .loader {     height: 100%;     width: 100%;     position: absolute;     left: 0;     top: 0;     display: flex;     justify-content: center;     align-items: center;     display:none;}
+
+.loader_bgg {     position: fixed;     z-index: 999999999;     background: black;     width: 100%;     height: 100%;
+opacity:1;} .loader1 {     height: 100%;     width: 100%;     position: absolute;     left: 0;     top: 0;     display: flex;     justify-content: center;     align-items: center;   }
+
+
+#firstpop {
+position:fixed;
+    background-color:#e1e2e3;  height: 370px;    border-radius: 4px;    width: 45%;
+padding:0px;
+    z-index:99;    box-shadow: 25px 25px 25px 25px rgba(0,0,0,.4);    position: absolute;    bottom: 28%;    left:28%;
+font-family:sans serif;
+color:black;
+display:inline-block;   animation-name: example1;  animation-duration: .5s;  animation-direction: reverse;     }    @keyframes example1 {  0%   {bottom: -0px;}  100% { bottom:-900px;}}
+.minimize {float: right;margin-top: 8px;
+margin-right:10px;cursor:pointer;
+padding: 2px;
+
+}
+.minimize:hover {margin-top: 8px;  background-color: red;   color: white;
+}
+
+.topp{
+margin-top:0px;
+width:auto;
+height:350px;
+background-color:#106eb6;
+ padding: 35px 15px;
+color:white;
+}
+
+.den{
+width:100%;
+height:60px;
+cursor:pointer;
+border: .2px solid white;
+}
+
+.den:hover {border: 1px solid white;
+background-color: #205a8c;}
+
+
+.button {
+  background-color: #106eb6;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+margin-left:80%;
+margin-top:25px;
+
+}
+
+.button:hover {
+ background-color: #205a8c;border: 1.5px solid white;}
+.ilb{
+display:inline-block;
+text-align:center;
+
+}
+
+.ilb2{
+
+background-color: #cbc9c9;
+border-bottom: 1px solid black;
+}
+
+#hula {
+display:none;
+position:fixed;
+z-index:99999;
+width:100%;
+height:100%;
+}
+
+.niche{
+position:fixed;
+height:60px;
+width:100%;
+background-color:#205a8c;
+z-index:99999;
+bottom:0px;
+text-align:center;
+
+}  
+#scan {
+position:fixed;
+    background-color:white;  height: 450px;    border-radius: 4px;    width: 45%;
+padding:0px;
+    z-index:99;    box-shadow: 25px 25px 25px 25px rgba(0,0,0,.4);    position: absolute;    bottom: 28%;    left:28%;
+font-family:sans serif;
+color:black;
+display:inline-block;   animation-name: example;  animation-duration: .5s;  animation-direction: reverse;     }    @keyframes example {  0%   {bottom: -0px;}  100% { bottom:-900px;}}
+
+#dixon{
+width:80%;
+height:100px;
+margin-left:10%;
+margin-top:20px;
+border:1px solid red;
+}
+
+.nen{
+display:none;
+width:100%;
+height:20px;
+cursor:pointer;
+border: .2px solid black;
+
+}
+
+
+.nen1{
+display:none;
+width:100%;
+height:20px;
+cursor:pointer;
+border: .2px solid black;
+
+}
+.nen2{
+display:none;
+width:100%;
+height:20px;
+cursor:pointer;
+border: .2px solid black;
+
+}
+.nen3{
+display:none;
+width:100%;
+height:20px;
+cursor:pointer;
+border: .2px solid black;
+
+}
+#chatbg {
+display:none;     position: fixed;     z-index: 9999;     background: black;     width: 100%;     height: 100%;
+opacity:.8;}
+
+#chat-box{  background-color: #303030;  padding: 5px;  position: fixed;  width: 40%;height: auto;  bottom: 25%;  left: 30%;  z-index: 9999999999999;  border-radius: 2px;border-style: solid;  border-color: white;  text-align:center;opacity:.98;      display: none;                  box-shadow: rgba(0, 0, 0, 0.35) 25px 25px  25px;       animation-name: example;  animation-duration: .5s;  animation-direction: reverse;     }    @keyframes example {  0%   {bottom: 200px;}  100% { bottom:-900px;}}.minimize1 {float: right;margin-top: 2px;cursor:pointer;height:34px;width:24px;}.minimize1:hover {margin-top: 2px;  background-color: red;   color: white;}input[type=text] {background-color: #1F1F1F;color:white;  width: 70%;  height:20px;  margin-bottom: 20px;  padding: 12px;  border: 1px solid #ccc;  border-radius: 3px;}.button1 {  background-color: #303030;  color: #A3A2A2;  width:20%;  padding: 5px 10px;  text-align: center;  display: inline-block;  font-size: 16px;  margin: 10px 2px;  cursor: pointer;  color: #fff !important;border: 1px solid #A3A2A2;margin-bottom: 30px;}.button1:hover {  background-color: #262626;   color: white;}#chat {
+background-color:white;    padding: 15px;    position: fixed;    bottom: 74px;    right: 8px;    z-index: 99999999;    border:1px solid #106eb6;    border-radius: 30px;     box-shadow: rgba(0, 0, 0, .35) 5px 5px  5px 5px;     animation-name: example;  animation-duration: 1s;  animation-direction: reverse;     }    @keyframes example {  0%   {bottom:-0px;}  100% { bottom:-900px;}}}#chat img {    color: #000;    font-size: 16px;    font-weight: 600;    margin-left: 35px;    width: 25px}#chat h4 {    width: 217px;    font-size: 20px;    padding-top: 7px;    margin: 0 auto;    display: block}#chat a {    margin: 0 auto;    display: block}#chat p {    font-size: 16px;    padding-top: 7px;    font-weight: 400}#chat .arrow-down {    position: absolute;    font-size: 47px;    color: #fff;    bottom: -35px;    left: 65px}#chat2 img {    color: #000;    font-size: 16px;    font-weight: 600;    margin-left: 65px;    width: 90px}#top2{
+ position: fixed;
+margin-top:0px;
+margin-left:30%;
+width:40%;
+height:auto;
+  background-color: #303030;
+opacity:.98;
+ z-index: 999999999;
+color:white;
+font-size:20px;
+padding:5px;
+border:2px solid #6f6f6f
+}
