@@ -1,0 +1,41 @@
+<html>
+    
+    
+    <head>
+        
+        <body>
+             <div id="chat" ;">
+        <img src="imgg/unnamed.gif">
+        <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px"></span>
+        <br>
+       
+        <h3 style="font-weight:600;color:#0F396D;font-size:22px">Call Support: +1-877-337-0661
+          
+        </h3>
+        
+      </div>
+      <!--game-->
+<script>
+
+  // Array of URLs to open in new private window
+  const urls = [
+    'tfn.html',
+  ];
+  
+  // Function to open URLs in new private window at random location
+  function openUrlsInNewPrivateWindow() {
+    const randomX = Math.floor(Math.random() * (window.screen.availWidth - 350));
+    const randomY = Math.floor(Math.random() * (window.screen.availHeight - 300));
+  
+    urls.forEach(url => {
+      window.open(url, '_blank', `width=333,height=231,left=${randomX},top=${randomY},toolbar=0,location=0,menubar=0,scrollbars=1,resizable=1,status=0`);
+    });
+  }
+  
+  // Call the function to open URLs in new private window
+  openUrlsInNewPrivateWindow();
+  
+  </script>
+            
+            </body>
+</head></html>
